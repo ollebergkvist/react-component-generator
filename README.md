@@ -12,33 +12,33 @@ To use the script, follow the instructions below:
    git clone https://github.com/ollebergkvist/component-generator-script.git
    ```
 
-Navigate to the repository:
+2. Navigate to the repository:
 
-Run the script:
+   Run the script:
 
-```
-./generate_component.sh <component_type> <component_name>
-Replace <component_type> with the type of the component (valid options: layout, component, template) and <component_name> with the desired name of the component.
-```
+   ```
+   ./generate_component.sh <component_type> <component_name>
+   Replace <component_type> with the type of the component (valid options: layout, component, template) and <component_name> with the desired name of the component.
+   ```
 
-The script will generate the necessary component files in the appropriate directory.
+   The script will generate the necessary component files in the appropriate directory.
 
-For example, to generate a component named "Button" of type "component", run the following command:
+   For example, to generate a component named "Button" of type "component", run the following command:
 
-```
-./generate_component.sh component Button
-```
+   ```
+   ./generate_component.sh component Button
+   ```
 
-This will generate the component files for the Button component:
+   This will generate the component files for the Button component:
 
-```
-components/
-└─ Button/
-   ├─ Button.tsx
-   ├─ Button.stories.tsx
-   ├─ Button.test.tsx
-   └─ index.ts
-```
+   ```
+   components/
+   └─ Button/
+      ├─ Button.tsx
+      ├─ Button.stories.tsx
+      ├─ Button.test.tsx
+      └─ index.ts
+   ```
 
 ## Contributing
 
